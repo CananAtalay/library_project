@@ -2,7 +2,7 @@ import java.io.*;
 
 public interface Reader {
 
-	public static void readerApplikation () {
+	public static void read() {
 	
 	File file = new File("C:\\Users\\Canan Atalay\\Desktop\\Library_Projekt\\library_project\\library_db.txt"); 
 
