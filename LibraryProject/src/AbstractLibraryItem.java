@@ -22,8 +22,5 @@ public abstract class AbstractLibraryItem {
 
 	// Methode
 
-	public static void getIsbn () {
-		
-	}
 
 }

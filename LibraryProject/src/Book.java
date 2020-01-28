@@ -1,15 +1,26 @@
 
 public class Book {
 
-	String isbn; 
-	String author; 
+	// Eigenschaften/Atribute
+
+	String isbn;
+	String author;
 	int publicationYear;
-		
-	public static void dasIstEinBuch (String book) {
-		
+
+	// Konstruktoren
+
+	public Book(String isbn, String author, int publicationYear) {
+		this.isbn = isbn;
+		this.author = author;
+		this.publicationYear = publicationYear;
 
 	}
-		
-		
+
+	//Methode 
+	public void getIsbn() {
+
+		System.out.println("Das ist die ISBN vom Buch: " + this.isbn);
+
 	}
 
+}

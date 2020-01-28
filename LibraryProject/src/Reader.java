@@ -1,9 +1,9 @@
 import java.io.*;
 
-public interface Reader {
+public class Reader {
 
-	public static void read() {
-	
+	public  static void reader (){
+
 	File file = new File("C:\\Users\\Canan Atalay\\Desktop\\Library_Projekt\\library_project\\library_db.txt"); 
 
 
@@ -19,4 +19,4 @@ public interface Reader {
 	}
 }
 
-}
+} 
